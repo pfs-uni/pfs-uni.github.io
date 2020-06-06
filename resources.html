@@ -9,10 +9,10 @@
     <body>
         <header>
             <img class="imgHeaderLogo" src="img/tree.jpg" alt="My tree logo"/>
-            <span id="headerMyDetails">
-                <span>Profile: Peter Saville (s3317765)</span>
-                <span><a href="mailto:s3317765@student.rmit.edu.au">Email s3317765</a></span>
-            </span>
+            <div id="myDetails">
+                <span id="myName">Peter Saville (s3317765)</span><br>
+                <span id="myContact">Email &lt;<a href="mailto:s3317765@student.rmit.edu.au">s3317765 at student dot rmit dot edu dot a you</a>&gt;</span>
+            </div>
             <nav>
                 <ul>
                     <li> <a href="index.html" target="_self">Home</a> </li>
@@ -23,31 +23,39 @@
                 </ul>
             </nav>
         </header>
-        <section>
-            <dl>
-                <span><h3>Useful Links</h3></span>
-                
-                <dt><a href="https://www.developer.mozilla.org" target="_blank">Mozilla Developer Network</a></dt>
-                <dd>Loads of HTML and CSS resources, tutorials and examples</dd>
-              
-                <dt><a href="https://en.wikipedia.org/wiki/Comparison_of_browser_engines_(CSS_support)" target="_blank">Wikipedia Browers CSS Comparison</a></dt>
-                <dd>Wikipedia is useful for finding out about almost anything.  For CSS, there are useful
-               comparison charts with what browsers support what features.</dd>
+        <div class="main">
+            <span><h3>Useful Links</h3></span>
+            <section>
+                <dl>
+                    <dt><a href="https://www.developer.mozilla.org" target="_blank">Mozilla Developer Network</a></dt>
+                    <dd>Loads of HTML and CSS resources, tutorials and examples</dd>
 
-                <dt><a href="https://paletton.com/" target="_blank">Paletton</a></dt>
-                <dd>A website that can help you choose colours that work well together for a nicer
-                visual experience.</dd>
+                    <dt><a href="https://en.wikipedia.org/wiki/Comparison_of_browser_engines_(CSS_support)" target="_blank">Wikipedia Browers CSS Comparison</a></dt>
+                    <dd>Wikipedia is useful for finding out about almost anything.  For CSS, there are useful
+                    comparison charts with what browsers support what features.</dd>
 
-                <dt><a href="http://www.css-tricks.com" target="_blank">CSS Tricks</a></dt>
-                <dd>A reference guide to the many features of CSS</dd>
+                    <dt><a href="https://paletton.com/" target="_blank">Paletton</a></dt>
+                    <dd>A website that can help you choose colours that work well together for a nicer
+                    visual experience.</dd>
 
-                <dt><a href="http://www.htmlstrip.com" target="_blank">htmlstrip.com</a></dt>
-                <dd>A handy online lorem ipsum generator for placeholder text.  There are many free tools to help
-                you develop any website.</dd>
-                
-                <dt><a href="http://www.placeholder.com" target="_blank">placeholder.com</a></dt>
-                <dd>An online service that allows you to easily add temporary placeholder images</dd>
-            </dl>   
-        </section>
+                    <dt><a href="http://www.css-tricks.com" target="_blank">CSS Tricks</a></dt>
+                    <dd>A reference guide to the many features of CSS</dd>
+
+                    <dt><a href="http://www.htmlstrip.com" target="_blank">htmlstrip.com</a></dt>
+                    <dd>There are many free tools to help you develop any website.</dd>
+
+                    <dt><a href="http://www.placeholder.com" target="_blank">placeholder.com</a></dt>
+                    <dd>An online service that allows you to easily add temporary placeholder images</dd>
+                    
+                    <dt><a href="https://www.blindtextgenerator.com/" target="_blank">Blind Text Generator</a></dt>
+                    <dd>Generates dummy text in a variety of styles.  Very useful for testing what what elements do and
+                    how they behave with css. Check out the snippets page.</dd>
+                    
+                </dl>   
+            </section>
+        </div>
+        <footer>
+            
+        </footer>
     </body>
 </html>
