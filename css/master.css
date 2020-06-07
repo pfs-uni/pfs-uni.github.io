@@ -34,7 +34,6 @@ nav {
     padding-bottom:7px;
     padding-left:7px;
 }
-
 nav a {
     font-size:0.7em;
     color:#CECECE;
@@ -88,6 +87,15 @@ nav li {
     border-bottom-right-radius:10px;
     background-color:#467285;
     color:#CECECE;
+}
+
+li.active {
+    background-color:#d9d9d9;
+    color:black;
+}
+
+li.active a {
+    color:black;
 }
 
 .imgHeaderLogo {
