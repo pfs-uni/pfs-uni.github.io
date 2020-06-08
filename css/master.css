@@ -4,6 +4,7 @@
 body {
     font-family: Calibri, Arial, "MS Trebuchet", sans-serif;
     font-size: 62.5%; /* This sets the default font size to 10px */
+    /* font-size: calc(1rem + (2rem - 1.4rem) * ((100vw - 300px) / (1600 - 300))); */
     margin: 0 auto;
     /* margin:1rem; */
     max-width:960px;
@@ -20,7 +21,8 @@ header, footer {
 header {
     border-top-left-radius:3.5rem;
     border-bottom-right-radius:0.0rem;
-    font-size:1.6rem;
+    /* font-size:1.6rem; */
+    padding-bottom:0.5rem;
     clear:both;
 }
 
@@ -35,19 +37,20 @@ footer {
 
 header a {
     text-decoration:none;
+    /* font-size:1.3rem; */
 }
 
 nav {
     display:block;
-    padding-bottom:0.7rem;
+    /* padding-bottom:0.7rem; */
     padding-left:0.7rem;
     width:90%;
-    padding-top:1rem;
+    /* padding-top:1rem; */
     clear:both;
 }
 
 nav a {
-    font-size:1.2rem;
+    font-size:1.2rem; 
     color:#CECECE;
 }
 
@@ -76,13 +79,13 @@ header a:active {
 
 #myName {
     position:relative;
-    font-size: 2.5rem;
-    top: 0.5rem;
+    font-size: 3rem;
+    /* top: 0.5rem; */
     letter-spacing:0.1rem;
 }
 
 #myContact {
-    font-size:1.5rem;
+    font-size:1.3rem;
     position:relative;
     top:0rem;
 }
@@ -94,6 +97,7 @@ nav li {
     display:inline-block;
     /* margin:0px; */
     padding-left:1rem;
+    padding-top:0.2rem;
     padding-right:1rem;
     /* padding-bottom:0px; */
     border-top-left-radius:1rem;
@@ -113,9 +117,10 @@ li.active a {
 
 .imgHeaderLogo {
     border-radius:50%;
-    max-height:6.0rem;
+    max-height:6rem;
     float:left;
     /* display:inline; */
+    margin-bottom:0.5rem;
 }
 
 .main {
@@ -128,7 +133,7 @@ li.active a {
 }
 
 .qa-q {
-    font-size:1.1rem;
+    /* font-size:1.1rem; */
     font-weight:bold;
     /* font-style:italic; */
     padding:0.5rem;
@@ -136,7 +141,7 @@ li.active a {
 }
 
 .qa-a {
-    font-size:1.2rem;
+    /* font-size:1.2rem; */
     background-color:#e6e6e6;
     padding:1rem;
     border-top-left-radius:1rem;
@@ -175,31 +180,51 @@ footer img {
 @media (max-width: 850px) {
     body {
         width:100%;
+        /* font-size:0.8vw; */ 
     }
     .qa-q {
         background-color:orange;
     }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 675px),(max-width: 400px)  {
+    body {
+        /* font-size: */
+    }
     .qa-q {
         background-color:black;
         color:white;
     }
+    .qa-a {
+        border-top-left-radius:0;
+    }
     .mainTitle {
-        font-size:1.3rem;
+        font-size:2.2rem;
     }
     header {
         border-top-left-radius:2rem;
     }
+    #myDetails {
+        margin-left: 0.5rem;
+        margin-top:0.2rem;
+    }
     #myName {
-        font-size:1.2rem;
+        font-size:1.4rem;
     }
     #myContact {
-        font-size:1rem;
+        font-size:0.8rem;
     }
     .imgHeaderLogo {
         max-height:3rem;
-        
+    }
+    nav ul li {
+        padding-top:0.2rem;
+        margin-top:0.4rem;
+    }
+    nav a {
+        font-size:0.9rem;
+    }
+    .main {
+        font-size:1.2rem
     }
 }
