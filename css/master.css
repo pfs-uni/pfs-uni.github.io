@@ -4,9 +4,9 @@
 body {
     font-family: Calibri, Arial, "MS Trebuchet", sans-serif;
     font-size: 62.5%; /* This sets the default font size to 10px */
-    margin: 1rem auto;
+    margin: 0 auto;
     /* margin:1rem; */
-    width:80%;
+    width:960px;
     height:100%;
 }
 
@@ -18,15 +18,15 @@ header, footer {
 
 header {
     border-top-left-radius:3.5rem;
-    border-bottom-right-radius:2.0rem;
+    border-bottom-right-radius:0.0rem;
     font-size:1.6rem;
 }
 
 footer {
-    margin-top:0.7rem;
-    min-height:5.0rem;
-    max-height:5.0rem;
-    border-top-left-radius:2.0rem;
+    margin-top:0.0rem;
+    min-height:3.2rem;
+    max-height:3.2rem;
+    border-top-left-radius:0.0rem;
     border-bottom-right-radius:2.0rem;
     margin-right:3.0rem;
 }
@@ -39,6 +39,7 @@ nav {
     display:block;
     padding-bottom:0.7rem;
     padding-left:0.7rem;
+    width:90%;
 }
 
 nav a {
@@ -115,10 +116,10 @@ li.active a {
 .main {
     font-size:1.2rem;
     background-color:#CECECE;
-    margin-top:0.7rem;
+    margin-top:0.0rem;
     padding:1rem;
-    border-top-left-radius:2.0rem;
-    border-bottom-right-radius:2.0rem;
+    border-top-left-radius:0.0rem;
+    border-bottom-right-radius:0.0rem;
 }
 
 .qa-q {
@@ -160,6 +161,8 @@ li.active a {
 }
 
 footer img {
-    width: 3.3rem;
+    width: 3.2rem;
     height: auto;
+    float:right;
+    padding-right:2.5rem;
 }

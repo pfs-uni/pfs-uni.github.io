@@ -7,6 +7,18 @@
         <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" title="no title" >
         <!-- Responsive Web Design (RWD) element-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <style type="text/css" media="screen">
+            @media (orientation: landscape) {
+                .note {
+                    display:none;
+                }
+            }
+            @media (max-width: 750px) {
+                .qa-q {
+                    background-color:orange;
+                }
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -26,6 +38,9 @@
             </nav>
         </header>
         <div class="main">
+            <div class="note">
+                Hey check out this responsive design element! cool...
+            </div>
             <div style="margin-bottom:25px;padding-left:5px;">
                 <h4>
                     Welcome to my Intro to Information Technology lecture website.
