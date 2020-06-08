@@ -183,7 +183,14 @@ footer img {
         /* font-size:0.8vw; */ 
     }
     .qa-q {
-        background-color:orange;
+        background-color:red;
+    }
+    .qa-a {
+        border-top-left-radius:0;
+    }
+    nav ul li {
+        padding-top:0.2rem;
+        margin-top:0.4rem;
     }
 }
 
